@@ -1,0 +1,36 @@
+GET http://localhost:3000/user/following/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY4Nzg0MDIyfQ.dCuLvBAN7PFXpk4sEeTsJy8LI-UEVaS5Lzzee8b-yPs
+
+###
+GET http://localhost:3000/user/tweets/feed/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY4Nzg0MDIyfQ.dCuLvBAN7PFXpk4sEeTsJy8LI-UEVaS5Lzzee8b-yPs
+
+###
+GET http://localhost:3000/tweets/4/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY4Nzg0MDIyfQ.dCuLvBAN7PFXpk4sEeTsJy8LI-UEVaS5Lzzee8b-yPs
+
+###
+
+GET http://localhost:3000/books/1/
+
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{    
+    "username": "rahul123",
+    "password": "rahul@456",
+    "gender":"male",
+    "location":"hyderabad"
+}
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
